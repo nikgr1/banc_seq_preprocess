@@ -1,0 +1,47 @@
+{
+    "GSE193553_MCF-7_FLAG-cMYC_ChIP_relEnr_Kds_noOutliers": 
+    {
+        "organism": "Homo sapiens",
+        "genome": "hg38"
+    },
+    "GSE193553_MCF-7_FLAG-YY1_ChIP_relEnr_Kds_noOutliers": 
+    {
+        "organism": "Homo sapiens",
+        "genome": "hg38"
+    },
+    "GSE193553_MCF-7_FLAG-YY1_CUTaRUN_relEnr_Kds_noOutliers": 
+    {
+        "organism": "Homo sapiens",
+        "genome": "hg38"
+    },
+    "GSE193553_MCF-7_FLAG-FOXA1_CUTaRUN_relEnr_Kds_noOutliers": 
+    {
+        "organism": "Homo sapiens",
+        "genome": "hg38"
+    },
+    "GSE193553_F121_FLAG-YY1_CUTaRUN_relEnr_Kds_noOutliers": 
+    {
+        "organism": "Mus musculus",
+        "genome": "mm10"
+    },
+    "GSE193553_R1_mESC_NPC_FLAG_SP1_CUTaRUN_relEnr_Kds": 
+    {
+        "organism": "Mus musculus",
+        "genome": "mm10"
+    },
+    "GSE193553_R1_NPC_FLAG_SP1_CUTaRUN_relEnr_Kds": 
+    {
+        "organism": "Mus musculus",
+        "genome": "mm10"
+    },
+    "GSE193553_R1_mESC_FLAG_SP1_CUTaRUN_relEnr_Kds": 
+    {
+        "organism": "Mus musculus",
+        "genome": "mm10"
+    },
+    "GSE193553_MCF-7_FLAG-SP1_CUTaRUN_relEnr_Kds_noOutliers": 
+    {
+        "organism": "Homo sapiens",
+        "genome": "hg38"
+    }
+}

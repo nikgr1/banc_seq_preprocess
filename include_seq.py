@@ -33,6 +33,8 @@ seqs = pd.read_csv(args.peaks_sequences, sep='\t', names=['bed_name', 'Sequence'
 seqs = pd.read_csv(args.peaks_sequences, sep='\t', names=['bed_name', 'Sequence'])
 # seqs['Index'] = seqs['bed_name'].str.split(':', n=1).str[0]
 seqs.index = seqs['bed_name'].str.split(':', n=1).str[0].astype(int)
+if not args.soft_clipping:
+    seqs['Sequence'] = seqs['Sequence'].str.upper()
 result = seqs.join(data)
 # result = pd.merge(data, seqs, left_index=True, right_index=True)
 

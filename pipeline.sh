@@ -30,7 +30,7 @@ do
     extension="${basename##*.}"
     filename="${basename%.*}"
 
-    echo \n Filtering: \t $filename
+    echo -e '\n' Filtering: '\t' $filename
 
     conda activate banc_seq
     python filtration_p_r.py \
@@ -45,7 +45,7 @@ do
     extension="${basename##*.}"
     filename="${basename%.*}"
 
-    echo \n Processing: \t $filename
+    echo -e '\n' Processing: '\t' $filename
 
     conda activate banc_seq
     python filtration_p_r.py \
@@ -54,7 +54,7 @@ do
 
     conda activate banc_seq
     genome_variant=$(cat $genomes_conf | jq -r --arg file "$filename" '.[$file].genome')
-    echo Selected genome variant: \t $genome_variant
+    echo -e Selected genome variant: '\t' $genome_variant
 
     conda activate banc_seq
     python bancseq2bed.py \
